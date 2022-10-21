@@ -91,6 +91,75 @@ main div p{
 
 
 
+.our_firm {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 768px;
+    margin: auto;
+}
+.our_firm h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+.lorem{
+    max-width: 493px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+}
+.sc{
+    display: flex;
+    padding-top: 18px;
+}
+.p{
+    margin-top: 10px;
+}
+.scstephen{
+    padding: 22px 0 0 30px;
+}
+
+
+
+
+.reading_house{
+    min-height: 600px;
+    background-image: url("../figma/image/reading_house.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 1080px;
+}
+.width{
+    margin: auto;
+    max-height: 1168px;
+}
+.description{
+    max-width: 285px;
+}
+.reading_house .description h5{
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 20px;
+    color: #403E3B;
+}
+.reading_house .description p{
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 16px;
+    Line-height: 24px;
+    color: #645C55;
+}
+
+
+
 #our_process{
     padding: 100px 120px;
     text-align: center
@@ -151,6 +220,29 @@ main div p{
 
 
 
+.marble_staircase {
+    min-height: 600px;
+    background-image: url("../figma/image/MARBLE.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 1080px;
+}
+.marble_staircase .description h5{
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 20px;
+    color: #403E3B;
+}
+.marble_staircase .description p {
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 16px;
+    Line-height: 24px;
+    color: #645C55;
+}
 
 
 #prior{
@@ -159,10 +251,18 @@ main div p{
 #max{
     max-width: 1168px;
     display: flex;
+    justify-content: space-between;
     margin: auto;
+    /*margin-top: 60px;*/
+    /*margin-left: 136px;*/
+    padding: 60px 136px 60px 136px;
 }
-#h3{
-    margin-top: 135px;
+.clients{
+    margin-top: 75px;
+    max-width: 460px;
+}
+.clients h3{
+    margin-top: 75px;
     font-family: 'Poppins', sans-serif;
     Font-style: normal;
     Font-size: 14px;
@@ -173,34 +273,78 @@ main div p{
     Letter-spacing: 2px;
     color: #ECE7E4;
 }
-#h1{
+.clients h1{
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     Font-style: normal;
     Font-size: 32px;
-    Line-height: 38px;
-    Line-height: 79%;
     text-align: Left;
     Vertical-align: Top;
 }
-#p{
-    padding: 14px 0 135px 0;
+.clients p{
+    padding-top: 14px;
+    padding-bottom: 75px;
     font-family: 'Poppins', sans-serif;
     color: #ECE7E4;
     Font-style: normal;
     Font-size: 15px;
-    Line-height: 24px;
-    Line-height: 107%;
     text-align: Left;
     Vertical-align: Top;
     line-height: 25px;
 }
-#hill_cai{
-    padding: 124px 0 0 181px;
+.hill_stud{
+    margin-top: 64px;
+    margin-left: 181px;
+    max-width: 432px;
+    max-height: 290px;
+    display: flex;
 }
-#riks_chill{
-    padding: 100px 0 0 96px;
+.twopics{
+    padding: 64px 0 48px 40px;
+    justify-content: space-between;
 }
+.picstwo{
+    padding: 40px 0 40px 96px;
+}
+
+
+
+
+
+.swirling {
+    min-height: 600px;
+    background-image: url("../figma/image/swirling.jpg");
+    background-size: cover;
+    justify-content: start;
+    padding-left: 60px;
+
+}
+.width1{
+    padding: 266px 0 266px 0;
+    margin: auto;
+    max-width: 1168px;
+}
+.description1{
+    max-width: 285px;
+}
+.swirling .width1 .description1 h5{
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 14px;
+    Line-height: 20px;
+    color: #403E3B;
+    padding-left: 60px;
+}
+.swirling .width1 .description1 p {
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 16px;
+    Line-height: 24px;
+    color: #645C55;
+    padding-left: 60px;
+}
+
+
 
 
 
@@ -211,10 +355,12 @@ main div p{
     max-width: 1168px;
     margin: auto;
     display: flex;
-
+    padding: 100px 136px 100px 136px;
+}
+.first_div{
+    max-width: 358px;
 }
 #meet{
-    margin-top: 96px;
     font-family: 'Poppins', sans-serif;
     Font-style: normal;
     Font-size: 32px;
@@ -235,37 +381,68 @@ main div p{
     Vertical-align: Top;
     color: #645C55;
 }
+.peoples{
+    display: flex;
+}
+.first_column{
+    margin-left: 37px;
+    padding: 0 0 28px 0;
+    justify-content: space-between;
+}
+.fper{
+    display: flex;
+}
+.round{
+    padding: 8px 0 8px 0;
+}
+.names{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 29px 0 30px;
+    Font-style: normal;
+    Font-size: 17px;
+    text-align: Left;
+    color: #1B1A1A;
+}
+.team{
+    padding: 30px 33px 30px;
+}
+.team h1{
+    font-family: 'Poppins', sans-serif;
+    Font-style: normal;
+    Font-size: 17px;
+    Line-height: 26px;
+}
 #team div a{
     padding: 0 0 0 25px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: #1B1A1A;
 }
-.people{
-   padding: 108px;
+.margins{
+    margin-top: 36px;
 }
-.people_div{
-    display: flex
-}
-.names{
-    font-family: 'Poppins', sans-serif;
-    padding: 30px 29px 0 30px;
-    Font-style: normal;
-    Font-size: 17px;
-    text-align: Left;
-    color: #1B1A1A;
-}
-.profession{
-    padding: 5px 0 0 30px;
-    font-family: 'Poppins', sans-serif;
-    Font-style: normal;
-    Font-size: 14px;
-    text_align: Left;
-    color: #645C55;
-}
-.photo_down{
-    margin-top: 52px;
-}
+
+
+
+
+/*.people{*/
+/*   padding: 108px;*/
+/*}*/
+/*.people_div{*/
+/*    display: flex*/
+/*}*/
+/*.profession{*/
+/*    padding: 5px 0 0 30px;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    Font-style: normal;*/
+/*    Font-size: 14px;*/
+/*    text_align: Left;*/
+/*    color: #645C55;*/
+/*}*/
+/*.photo_down{*/
+/*    margin-top: 52px;*/
+/*}*/
 
 
 
