@@ -134,7 +134,7 @@ main div p{
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-left: 1080px;
+    padding-right: 75px;
 }
 /*.width{*/
 /*    margin: auto;*/
@@ -227,7 +227,7 @@ main div p{
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-left: 1080px;
+    padding-right: 75px;
 }
 .marble_staircase .description h5{
     font-family: 'Poppins', sans-serif;
@@ -315,7 +315,9 @@ main div p{
     min-height: 600px;
     background-image: url("../figma/image/swirling.jpg");
     background-size: cover;
+    display: flex;
     justify-content: start;
+    align-items: center;
     padding-left: 60px;
 
 }
@@ -327,7 +329,7 @@ main div p{
 .description1{
     max-width: 285px;
 }
-.swirling .width1 .description1 h5{
+.swirling .description1 h5{
     font-family: 'Poppins', sans-serif;
     Font-style: normal;
     Font-size: 14px;
@@ -335,7 +337,7 @@ main div p{
     color: #403E3B;
     padding-left: 60px;
 }
-.swirling .width1 .description1 p {
+.swirling .description1 p {
     font-family: 'Poppins', sans-serif;
     Font-style: normal;
     Font-size: 16px;
