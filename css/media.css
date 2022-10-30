@@ -1,0 +1,130 @@
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 428px) {
+    .genheader{
+        flex-direction: column;
+        text-align: center;
+    }
+    .ulheader{
+        flex-direction: column;
+        text-align: center;
+    }
+    .head_list_left{
+        margin-top: 10px;
+    }
+    main{
+        flex-direction: column;
+        min-height: 400px;
+        padding: 50px 0 0;
+    }
+    #background_image{
+        position: unset;
+
+    }
+    main div h1{
+        font-size: 40px;
+    }
+    #image_for_media{
+        background-image: url("../image/IMAGE.jpg");
+        background-size: cover;
+        min-height: 400px;
+        max-width: 390px;
+
+    }
+    .our_firm{
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .our_firm h1{
+        margin-bottom: 20px;
+    }
+    .sc{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #our_process{
+        padding: 80px 10px;
+    }
+    #flex{
+        flex-direction: column;
+        padding: 80px 0 50px;
+    }
+    #max{
+        /*margin-top: 40px;*/
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+    .clients h3{
+        text-align: center;
+    }
+    .clients h1{
+        text-align: center;
+    }
+    .clients p{
+        text-align: center;
+    }
+    .hill_stud{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        max-height: 600px;
+        margin-top: 0px;
+    }
+    .clients{
+        margin-top: 0px;
+    }
+    .twopics{
+        padding: 10px 10px;
+    }
+    .picstwo{
+        align-items: center;
+        padding: 10px 10px;
+    }
+    #cai{
+        margin-top: 35px;
+    }
+    #top{
+        margin-top: 30px;
+    }
+    .d-flex{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .projects article{
+        max-width: 320px;
+        margin: auto;
+    }
+    .for_mobile{
+        padding-top: 20px;
+    }
+    .projects{
+        padding: 90px 0 20px 0;
+    }
+    #team{
+        flex-direction: column;
+        padding: 90px 10px ;
+    }
+    .first_div{
+        text-align: center;
+    }
+    .peoples{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .first_column{
+        align-items: center;
+        margin-left: 0px;
+    }
+    .second_column{
+        align-items: center;
+    }
+    #brown{
+        flex-direction: column;
+    }
+    #footer{
+        flex-direction: column;
+    }
+}

@@ -9,19 +9,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
 </head>
 
 
 
 <body>
 <header>
-    <div id="genheader">
+    <div class="genheader">
         <a href="#">
             <img src="image/logo.svg" alt="logo">
         </a>
         <nav>
-            <ul style="list-style: none; display: flex">
+            <ul class="ulheader" style="list-style: none; display: flex">
                 <li class="head_list_left">
                     <a href="#"
                        class="head_list"
@@ -41,7 +52,7 @@
                 </li>
                 <li class="head_list_left">
                     <a href="#"
-                       id="get_template"
+                       class="get_template"
                        >Get template </a>
                 </li>
             </ul>
@@ -61,8 +72,8 @@
         </p>
 
     </div>
-    <div id="background_image">
-    </div>
+    <div id="background_image"></div>
+    <div id="image_for_media"></div>
 </main>
 
 
@@ -120,22 +131,23 @@
     <div id="how_we">
         <p id="process">Our process</p>
         <p id="what">How we do what we do.</p>
+
         <div id="flex">
-        <article class="articles_what">
-            <img src="image/Sketching-Icon.svg" alt="svg">
-            <h3>Sketching</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
-        </article>
-        <article class="articles_what">
-            <img src="image/Finalizing-Icon.svg" alt="svg">
-            <h3>Finalizing</h3>
-            <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
-        </article>
-        <article class="articles_what">
-            <img src="image/Building-Icon.svg" alt="svg">
-            <h3>Building</h3>
-            <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
-        </article>
+            <article class="articles_what">
+                <img src="image/Sketching-Icon.svg" alt="svg">
+                <h3>Sketching</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
+            </article>
+            <article class="articles_what">
+                <img src="image/Finalizing-Icon.svg" alt="svg">
+                <h3>Finalizing</h3>
+                <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
+            </article>
+            <article class="articles_what">
+                <img src="image/Building-Icon.svg" alt="svg">
+                <h3>Building</h3>
+                <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
+            </article>
         </div>
     </div>
 </section>
@@ -174,7 +186,7 @@
             <a href="#">
                 <img src="image/hill_hayers.svg" alt="hill_hayers">
             </a>
-                <div style="margin-top: 128px">
+                <div id="cai">
             <a href="#">
                 <img src="image/studio_cai.svg" alt="cai">
             </a>
@@ -184,7 +196,7 @@
             <a href="#">
                 <img src="image/riksgranser.svg" alt="hill_hayers">
             </a>
-                <div style="margin-top: 96px">
+                <div id="top">
             <a href="#" id="cil">
                 <img src="image/chill.svg" alt="cai">
             </a>
@@ -230,7 +242,7 @@
                 </div>
                <img src="image/IMAGE%20(17).svg">
             </article>
-            <article>
+            <article class="for_mobile">
                 <div class="describe">
                     <h4>
                         <span>NEW YORK</span>
@@ -240,7 +252,7 @@
                 </div>
                 <img src="image/IMAGE%20(18).svg">
             </article>
-            <article>
+            <article class="for_mobile">
                 <div class="describe">
                     <h4>
                         <span>NEW YORK</span>
@@ -512,5 +524,8 @@
         </nav>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
