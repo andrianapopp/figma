@@ -1,4 +1,93 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
+
+    .genheader{
+        flex-direction: column;
+}
+    .ulheader{
+        justify-content: flex-end;
+    }
+    main div h1{
+        font-size: 50px;
+    }
+    main div p{
+        max-width: 360px;
+    }
+    main{
+        min-height: 300px;
+        padding: 90px 0;
+    }
+    .our_firm{
+        padding: 100px 30px;
+    }
+    #flex{
+        padding: 60px 0 0 0;
+    }
+    #max{
+        flex-direction: column;
+    }
+    .clients{
+        margin: auto;
+        padding-top: 0px;
+    }
+    .clients h3{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .clients h1{
+        text-align: center;
+    }
+    .clients p{
+        text-align: center;
+    }
+    .hill_stud{
+        margin: auto;
+    }
+    .picstwo{
+        padding: 40px 0 40px 126px;
+    }
+    .twopics{
+        padding: 64px 0 48px 0px;
+    }
+    .projects h3{
+        padding-left: 30px;
+    }
+    .projects p{
+        padding-left: 30px;
+    }
+    .projects article{
+        max-width: 240px;
+    }
+    .d-flex{
+        max-width: 800px;
+        margin: auto;
+    }
+    #team{
+        flex-direction: column;
+        padding: 90px 30px;
+    }
+    .first_div{
+        margin: auto;
+        text-align: center;
+    }
+    .first_column{
+        margin-left: 0;
+    }
+    .peoples{
+        padding-top: 50px;
+        margin: auto;
+    }
+    #footer{
+        padding: 60px 20px 60px 0;
+    }
+    .reading_house{
+        min-height: 400px;
+    }
+    .marble_staircase{
+        min-height: 400px;
+    }
+    .swirling{
+        min-height: 400px;
+    }
 
 }
 @media only screen and (max-width: 428px) {
