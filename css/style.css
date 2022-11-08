@@ -42,6 +42,45 @@ body header div nav {
     color: #FFFFFF;
     text-decoration: none;
 }
+.ui-widget-header{
+    background: #CEC4BC;
+    border-color: #CEC4BC;
+}
+.ui-widget-content{
+    background-image: url("../image/swirling.jpg");
+    background-size: cover;
+}
+.ui-widget{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.ui-widget-content{
+    color: #1B1A1A;
+}
+#inst{
+    margin-left: 250px;
+}
+
+
+
+
+element.style {
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 
 
 
